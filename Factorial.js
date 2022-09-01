@@ -1,7 +1,7 @@
 
 function Factorial(n) {
-   results = 1
-  for (let i = 1; i <= n; i++) {
+   let results = 1
+  for (let i = 2; i <= n; i++) {
     results = results * i;
     
   }
@@ -11,3 +11,5 @@ function Factorial(n) {
 console.log(Factorial(0))
 console.log(Factorial(1))
 console.log(Factorial(5))
+
+//Big-O=O(n)
